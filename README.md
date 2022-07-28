@@ -1,5 +1,5 @@
-# Pooplang
-Pooplang is a Lua library that makes writing code weird and fun!
+# Pooplib
+Pooplib is a Lua library that makes writing code weird and fun!
 
 ## Usage
 `poop_text(text)` to print text
