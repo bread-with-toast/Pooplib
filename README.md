@@ -26,18 +26,21 @@ poop_text(pooparles["PooparleA"])
 ```lua
 if check_if_poop(3 + 2 == 5) then
     poop_text("Poop!")
-end```
+end
+```
 
 # Roadmap
 [X] First version
-[] O.O.P
+
 [] Checking which type
+
 [] Making a website
+
 [] Loops
 
 # License
 
-MIT License
+```MIT License
 
 Copyright (c) 2022 bread-with-toast
 
@@ -57,4 +60,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE.```
