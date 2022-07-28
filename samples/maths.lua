@@ -1,6 +1,3 @@
--- Pooplang - The simple, reliable and fun way to write Lua
--- Add this to the start of your file
-
 pooparles = {}
 
 function poop_text(text)
