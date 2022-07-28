@@ -38,7 +38,7 @@ end
 
 [] Documentation
 
-[] Samples
+[X] Samples
 
 [X] Loops
 
