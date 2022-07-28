@@ -32,11 +32,15 @@ end
 # Roadmap
 [X] First version
 
-[] Checking which type
+[X] Checking which type
 
 [] Making a website
 
-[] Loops
+[] Documentation
+
+[] Samples
+
+[X] Loops
 
 # License
 
