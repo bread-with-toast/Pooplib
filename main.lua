@@ -55,10 +55,3 @@ function poop_a_print(starting, max, text, increment)
 	end
 	
 end
-
-
-set_pooparle("uwu", 3)
-poop_text(pooparles["uwu"])
-poop_text(poop_type(pooparles["uwu"]))
-
-poop_a_print(pooparles["uwu"], 10, "hi", 2)
