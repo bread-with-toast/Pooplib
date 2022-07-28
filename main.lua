@@ -43,3 +43,22 @@ function poop_times(times)
 		x = x + 1
 	end
 end
+
+function poop_type(pooparle)
+	return type(pooparle)
+end
+
+function poop_a_print(starting, max, text, increment)
+	while starting <= max do
+		print(text)
+		starting = starting + increment
+	end
+	
+end
+
+
+set_pooparle("uwu", 3)
+poop_text(pooparles["uwu"])
+poop_text(poop_type(pooparles["uwu"]))
+
+poop_a_print(pooparles["uwu"], 10, "hi", 2)
