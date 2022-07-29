@@ -34,9 +34,9 @@ end
 
 [X] Checking which type
 
-[] Making a website
+[X] Making a website
 
-[] Documentation
+[X] Documentation
 
 [X] Samples
 
