@@ -44,7 +44,8 @@ end
 
 # License
 
-```MIT License
+```
+MIT License
 
 Copyright (c) 2022 bread-with-toast
 
