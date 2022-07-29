@@ -2,30 +2,30 @@
 Pooplib is a Lua library that makes writing code weird and fun!
 
 ## Usage
-`poop_text(text)` to print text
+`M.poop_text(text)` to print text
 
-`set_pooparle(name, val)` to define a variable
+`M.set_pooparle(name, val)` to define a variable
 
-`add/subtract/divide/multiply_poop(poopA, poopB)`
+`M.add/subtract/divide/multiply_poop(poopA, poopB)`
 
-`check_if_poop(condition)` an if statement
+`M.check_if_poop(condition)` an if statement
 
-`poop_times(times)` print "Poopy poop" to the screen
+`M.poop_times(times)` print "Poopy poop" to the screen
 
 ## Using pooparles and checking if poop
 
 ### Pooparles (example):
 
 ```
-set_pooparle("PooparleA", 3)
-poop_text(pooparles["PooparleA"])
+M.set_pooparle("PooparleA", 3)
+M.poop_text(pooparles["PooparleA"])
 ```
 
 ### Checking if poop (example)
 
 ```lua
-if check_if_poop(3 + 2 == 5) then
-    poop_text("Poop!")
+if M.check_if_poop(3 + 2 == 5) then
+    M.poop_text("Poop!")
 end
 ```
 
