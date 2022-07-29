@@ -1,34 +1,34 @@
--- Pooplib - The simple, reliable and fun way to write Lua
--- Add this to the start of your file
-
+-- Pooplang - The simple, reliable and fun way to write Lua
+-- Put this file in the same directory as a Lua file, the use the require("main") function.
+M = {}
 pooparles = {}
 
-function poop_text(text)
+function M.poop_text(text)
 	print(text)
 end
 
 
-function set_pooparle(name, val)
+function M.set_pooparle(name, val)
 	pooparles[name] = val
 end
 
-function add_poop(poopA, poopB)
+function M.add_poop(poopA, poopB)
 	return poopA + poopB
 end
 
-function subtract_poop(poopA, poopB)
+function M.subtract_poop(poopA, poopB)
 	return poopA - poopB
 end
 
-function divide_poop(poopA, poopB)
+function M.divide_poop(poopA, poopB)
 	return poopA / poopB
 end
 
-function multiply_poop(poopA, poopB)
+function M.multiply_poop(poopA, poopB)
 	return poopA * poopB
 end
 
-function check_if_poopy(cond)
+function M.check_if_poopy(cond)
 	if cond then
 		return true
 	else
@@ -36,7 +36,7 @@ function check_if_poopy(cond)
 	end
 end
 
-function poop_times(times)
+function M.poop_times(times)
 	x = 1
 	while x <= times do
 		print("Poopy poop")
@@ -44,14 +44,16 @@ function poop_times(times)
 	end
 end
 
-function poop_type(pooparle)
+function M.poop_type(pooparle)
 	return type(pooparle)
 end
 
-function poop_a_print(starting, max, text, increment)
+function M.poop_a_print(starting, max, text, increment)
 	while starting <= max do
 		print(text)
 		starting = starting + increment
 	end
 	
 end
+
+return M
