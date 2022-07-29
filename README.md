@@ -42,7 +42,7 @@ end
 
 [X] Loops
 
-# License
+# Licenses
 
 ```
 MIT License
@@ -67,3 +67,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+Lua Copyright Notice: `Copyright © 1994–2021 Lua.org, PUC-Rio.`
